@@ -17,12 +17,14 @@ for classes that primarily store data.
 
 ## Example
 
+```python
 from dataclasses import dataclass
 
 @dataclass
 class User:
     id: int
     name: str
+```
 
 ## Where did I use it?
 
